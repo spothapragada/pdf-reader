@@ -6,4 +6,4 @@ Collaborators:
 
  - [x] Girish Ramakrishnan
  - [x] Seetha Pothapragada
- - [x] Harsha Pothapragada
+ - [x] Sriharsha Pothapragada
