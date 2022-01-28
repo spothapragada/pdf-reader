@@ -4,5 +4,5 @@ Extract text from PDFs
 
 Collaborators:
 
- - [ ] Girish RamaKrishnan
- - [ ] Seetha Pothapragada
+ - [x] Girish Ramakrishnan
+ - [x] Seetha Pothapragada
