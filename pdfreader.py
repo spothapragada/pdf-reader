@@ -1,7 +1,5 @@
-import pandas as pd
-import numpy as np
-import requests
 import PyPDF2
+import pandas as pd
 
 if '__name__' == '__main__':
     # Import and read the pdf file
@@ -21,4 +19,7 @@ if '__name__' == '__main__':
     df = pd.DataFrame(lines)
     # Remove the empty lines
     df = df[df.columns[0] != '']
+
+    print("I found the following lines:")
+    print(df)
 
