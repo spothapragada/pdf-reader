@@ -1,5 +1,9 @@
 import PyPDF2
 import pandas as pd
+import logging
+
+logging.basicConfig(level=logging.DEBUG, format=' %(asctime)s - %(levelname)s - %(message)s')
+
 
 if '__name__' == '__main__':
     # Import and read the pdf file
@@ -23,3 +27,12 @@ if '__name__' == '__main__':
     print("I found the following lines:")
     print(df)
 
+
+
+    try:
+        # Create a csv file with the dataframe
+        df.to_csv('Home Inspection.csv', index=False)
+    except Exception as e:
+        print(e)
+        count
+    
